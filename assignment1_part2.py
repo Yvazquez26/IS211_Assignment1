@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[6]:
-
-
 ## This is assignment 1 part 2 that includes simple classes.
 
 class Book(object):
