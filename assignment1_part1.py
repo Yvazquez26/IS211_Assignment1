@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[16]:
-
-
 ## This is assignment 1 part 1 that includes fuctions and exceptions.
 
 def listDivide(numbers, divide=2):
@@ -44,7 +41,6 @@ def testListDivide():
     Returns: 
         int: The number of elements divisible by the divisor.
         
-    
     Examples:
         >>> listDivide([1,2,3,4,5])
             2
@@ -56,9 +52,7 @@ def testListDivide():
             0
         >>> listDivide([1,2,3,4,5], 1)
             5
-    
     """
-    
     if listDivide([1, 2, 3, 4, 5]) != 2:
         raise ListDivideException
     elif listDivide([2, 4, 6, 8, 10]) != 5:
@@ -78,9 +72,6 @@ print listDivide([2,4,6,8,10])
 print listDivide([30, 54, 63,98, 100], divide=10)
 print listDivide([])
 print listDivide([1,2,3,4,5], 1)
-
-
-# In[ ]:
 
 
 
