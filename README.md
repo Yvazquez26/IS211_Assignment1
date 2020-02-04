@@ -27,7 +27,7 @@ by divide.
 The function testListDivide does not return anything. However, if any of the tests fail, the function
 should raise the ListDivideException.
 
-1.When your script runs, it should call testListDivide. Ideally, if your listDivide and testListDivide
+When your script runs, it should call testListDivide. Ideally, if your listDivide and testListDivide
 function is written properly, no exception should be raised. If the exception is raised however, try to
 figure out what is wrong. Keep updating the code until you know listDivideis working properly.
 
